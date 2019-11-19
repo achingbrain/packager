@@ -12,8 +12,8 @@
     "prepublishOnly": "npm run dependency-check"
   },
   "dependencies": {
-    "encoding-down": "^6.3.0",
-    "levelup": "^4.3.2"
+    "encoding-down": "github:level/encoding-down#import-buffer",
+    "levelup": "github:level/levelup#import-buffer"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
